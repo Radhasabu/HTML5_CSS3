@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fluid_container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.center_container{
+    max-width: 600px;
+    margin: auto;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color: #86198F;
+    border-radius: 0.5rem;
+    color: white;
+}
+.link-secondary{
+    color: #86198F;
+    border-radius: 0.5rem;
+    border:1px solid;
+}
+
+.list-item-inline{
+    display: inline;
+}
+
+.navigation{
+    background-color:#86198F ;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius:1rem ;
+}
+.navigation .link{
+    color: white;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .unordered{
+    text-align: right;
+    align-items: center;
+}
+.navigation .link-active{
+    font-weight: bold;
+}

@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
-</head>
+    <link rel="stylesheet" href="style.css">
+</head> 
 <body>
     <h1>Welcome to my Website</h1>
     <hr>
@@ -20,17 +21,30 @@
     <h1>@container</h1>
     <h2>fluid container</h2>
 
-    <div class="fluid_container">this is a fluid container and it will go till the end of the page</div>
+    <div class="fluid_container">this is a <strong>fluid container </strong>and it will go till the end of the page</div>
     <h2>center container</h2>
 
-    <div class="center_container">this is a center container and it will go till the specified page</div>
+    <div class="center_container">this is a <strong>center container</strong> and it will go till the specified page</div>
 
     <hr>
 
     <h1>@links</h1>
 
-    <a href="/">Primary link</a>
-    <a href="/">Secondary link</a>
+    <a class="link link-primary" href="/">Primary link</a>
+    <a class="link link-secondary" href="/">Secondary link</a>
+
+    <hr>
+
+    <h1>@navigation</h1>
+
+    <nav class="navigation">
+        <div class="nav-brand">Navbar</div> 
+        <ul class="unordered">
+            <li class="list-item-inline"><a class="link link-active"  href="/">Home</a></li>
+            <li class="list-item-inline"><a class="link" href="/">about</a></li>
+            <li class="list-item-inline"><a class="link" href="/">contact</a></li>
+        </ul>
+    </nav>
 
     <hr>
 
