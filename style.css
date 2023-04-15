@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Source+Sans+Pro:wght@300&display=swap');
 
+:root{
+    --primary-color:#86198F;
+}
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
 }
 
 .fluid_container{
@@ -49,7 +53,55 @@ body{
 .navigation .unordered{
     text-align: right;
     align-items: center;
-}
+} 
 .navigation .link-active{
     font-weight: bold;
+}
+
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading{
+    color: #475569;
+    text-align: center;
+}
+.hero-heading-spam{
+    color:#86198F ;
+    font-weight: bold;
+}
+
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+
+.gray{
+    background-color: #a1a1aa;
+    color: black;
+}
+.white{
+    background-color: white;
+    color:#86198F;
+}
+
+.footer{
+     background-color: var(--primary-color);
+     padding:2rem 1rem;
+     border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color:white;
+    
+}
+.footer ul{
+    text-align: left;
 }
